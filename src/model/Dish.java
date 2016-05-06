@@ -7,14 +7,14 @@ public class Dish
 {
 	private boolean isDirty;
 	private Color color;
-	private double total;
+	private int radius;
 	
 	
-	public Dish(boolean isDirty, Color color, double total)
+	public Dish(boolean isDirty, Color color, int radius)
 	{
 		this.isDirty = isDirty;
 		this.color = color;
-		this.total = total;
+		this.radius = radius;
 	}
 	
 	public boolean isDirty()
@@ -22,7 +22,7 @@ public class Dish
 		return isDirty;
 	}
 
-	public void setIsDirty(boolean IsDirty) 
+	public void setIsDirty(boolean isDirty) 
 	{
 		this.isDirty = isDirty;
 	}
@@ -37,13 +37,13 @@ public class Dish
 		this.color = color;
 	}
 
-	public double getTotal() 
+	public double getRadius() 
 	{
-		return total;
+		return radius;
 	}
 
-	public void setTotal(double total) 
+	public void setRadius(int radius) 
 	{
-		this.total = total;
+		this.radius = radius;
 	}
 }

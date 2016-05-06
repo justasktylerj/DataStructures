@@ -25,4 +25,11 @@ public class DataController
 		customerQueue.add(new Customer(false, "", 3234.3));
 		customerQueue.remove();
 	}
+	
+	public void start()
+	{
+		
+	} 
+	
+	
 }
